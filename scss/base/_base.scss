@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+input {
+
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+label {
+
+    cursor: pointer;
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+
+    margin: 0;
+    color: #31405B;
+
+}
+
+img {
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.container {
+
+    width: 1170px;
+    margin: 0 auto;
+
+    /*====tablet планшет======*/
+
+    @media (max-width: 1199px) {
+
+        width: 900px;
+    }
+
+    /*====mobile смартфон======*/
+
+    @media (max-width: 899px) {
+
+        width: 100%;
+    
+    }
+
+    /*====mobile смартфон======*/
+
+    @media (max-width: 599px) {
+
+        width: 320px;
+    
+    }
+
+}
+
+.main-header {
+    
+    font-size: 54px;
+    color: #31405B;
+    font-weight: bold;
+    line-height: 1.3;    
+    
+}
+
+.inner-page {
+
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #F2F8F6;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
