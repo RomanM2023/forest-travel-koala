@@ -1,0 +1,82 @@
+.main {
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.main-row {
+
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: space-between;
+
+}
+
+.main-row:last-child {
+
+    margin-bottom: 0;
+
+}
+
+/* каждый четный контейнер будет ревенрсивным по сравнению с нечетным*/
+
+.main-row:nth-child(even) {
+
+    flex-direction: row-reverse;
+
+}
+
+/* каждый четный контейнер будет ревенрсивным по сравнению с нечетным*/
+
+
+.main-content {
+
+    width: 470px;
+
+}
+
+.main-content-header {
+
+    margin-bottom: 20px;
+
+}
+
+.main-content-text {
+
+    margin-bottom: 40px;
+    color: #31405B;
+    font-size: 20px;
+    line-height: 1.6;
+    
+}
+
+.main-content-text a {
+
+    color: #138ECE;
+
+}
+
+.main-content-text p {
+
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+
+.main-img {
+
+    width: 570px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
