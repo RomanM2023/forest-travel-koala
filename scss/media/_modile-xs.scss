@@ -1,0 +1,151 @@
+/*========================mobile xs мобилочка========================*/
+
+@media (max-width: 599px) {
+
+    /*========header шапка========*/
+    
+    
+    
+        .header-top, .header-content {
+    
+            width: 100%;
+            
+        }
+    
+        .logo {
+    
+            font-size: 30px;
+    
+        }
+    
+        .header-title {
+    
+            font-size: 32px;
+            margin-bottom: 10px;
+    
+        }
+    
+        .header-content p {
+    
+            font-size: 18px;
+        
+        }
+    
+     /*========main центральная часть========*/
+    
+        .main {
+    
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+        }
+    
+        .main .container {
+    
+            width: 100%;
+            
+        }
+    
+        .main-row {
+    
+            flex-direction: column-reverse;
+            margin-bottom: 40px;
+    
+        }
+    
+        .main-row:nth-child(even) {
+    
+            flex-direction: column-reverse;
+        
+        }
+    
+        .main-header {
+    
+            font-size: 34px;
+    
+        }
+    
+        .main-img {
+    
+            height: 150px;
+            width: auto;
+            margin-right: 0;
+            margin-bottom: 20px; 
+        }
+    
+        /*========footer подвал========*/
+    
+        .footer {
+    
+            text-align: center;
+    
+        }
+    
+        .footer-row {
+    
+            flex-direction: column;
+    
+        }
+    
+        .footer-widgets-wrapper {
+        
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+    
+        }
+    
+        .footer-copyright {
+    
+            width: auto;
+    
+        }
+    
+        .footer-widget-servises {
+    
+            display: block;
+    
+        }
+    
+        .footer-widget {
+    
+            margin-bottom: 40px;
+        }
+    
+        .footer-widget + .footer-widget {
+    
+            margin-left: 0px;
+        
+        }
+    
+        .footer-widgets-wrapper > * {
+        
+            width: auto;
+    
+        }
+    
+        .footer-widget-list {
+    
+            font-size: 16px;
+    
+        }
+    
+        .footer-widget-list li {
+    
+            margin-bottom: 10px;
+    
+        }
+    
+        .footer-widget-title {
+    
+            font-size: 20px;
+            margin-bottom: 10px;
+    
+        }
+    
+        .footer-widget-contacts:last-child {
+    
+            margin-bottom: 0;
+        }
+    
+    }
